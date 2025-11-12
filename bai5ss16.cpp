@@ -13,7 +13,7 @@ int main() {
     }
     
     for (i = 0; i < strlen(chuoi); i++) {
-        if (chuoi[i] == ' ' && chuoi[i+1] != ' ' && chuoi[i+1] != \0) {
+        if (chuoi[i] == ' ' && chuoi[i+1] != ' ' && chuoi[i+1] != '\0') {
             dem++;
         }
     }
@@ -22,4 +22,5 @@ int main() {
     
     return 0;
 }
+
 
